@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Function sum_list, takke a list 'unput_list' of floats
-and return their sum as float"""
+"""Function sum_list, takke a list 'unput_list'
+of floats and return their sum as float"""
 from typing import List
 
 
