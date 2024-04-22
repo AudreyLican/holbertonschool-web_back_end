@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-"""Function make_multiplier, take a float 'multiplier' 
-and returns a function that multiplies a float by multiplier"""
+"""
+Function make_multiplier, takes a float 'multiplier' and 
+returns a function that multiplies a float by multiplier"""
 from typing import Callable
 
 
