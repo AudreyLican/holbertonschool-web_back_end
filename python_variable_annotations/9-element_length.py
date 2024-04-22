@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
-"""Function make_multiplier, take a float 'multiplier' 
-and returns a function that multiplies a float by multiplier"""
+"""
+Annotate function : 'def element_length(lst):
+    return [(i, len(i)) for i in lst]'
+with appropriate type"""
 from typing import Iterable, Sequence, List, Tuple
 
 
