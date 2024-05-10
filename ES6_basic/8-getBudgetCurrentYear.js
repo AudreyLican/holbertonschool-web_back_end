@@ -1,18 +1,13 @@
-class HolbertonClass {
-    constructor(size, location) {
-        this._size = size;
-        this._location = location;
-    }
-
-    [Symbol.toPrimitive](hint) {
-        if (hint === 'number') {
-            return this._size;
-        }
-        if (hint === 'string') {
-            return this._location;
-        }
-        return this;
-    }
+function getCurrentYear() {
+    const date = new Date();
+    return date.getFullYear();
 }
 
-export default HolbertonClass;
+export default function getBudgetForCurrentYear(income, gdp, capita) {
+    const budget = {
+        [`income-${getCurrentYear()}`]: income,
+        [`gdp-${getCurrentYear()}`]: gdp,
+        [`capita-${getCurrentYear()}`]: capita,
+    };
+    return budget;
+}

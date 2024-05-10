@@ -1,10 +1,9 @@
-export default class Airport {
-    constructor(name, code) {
-        this._name = name;
-        this._code = code;
-    }
+export default function getBudgetObject(income, gdp, capita) {
+    const budget = {
+        income,
+        gdp,
+        capita,
+    };
 
-    toString() {
-        return `[object ${this._code}]`;
-    }
+    return budget;
 }
